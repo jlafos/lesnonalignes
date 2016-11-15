@@ -1,0 +1,19 @@
+<div class="four columns menu">
+  <p><a href="{{ .Site.BaseURL }}">Accueil</a></p>
+  <p>
+    {{ range where .Site.Pages.ByWeight.Reverse "Type" "projets" }}
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a><br>
+    {{ end }}
+  </p>
+  <p>
+    <a href="/compagnie">Compagnie</a><br>
+    <a href="/contact">Contact</a>
+  </p>
+  {{ if isset .Params "menu" }}
+  <div class="infos-menu">
+    <hr class="na2 max-width-50 mt5 mb5">
+    {{ .Params.menu | markdownify }}
+  </div>
+  {{ end }}
+
+</div>

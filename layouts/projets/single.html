@@ -1,0 +1,48 @@
+{{ partial "header.html" . }}
+{{ partial "title.html" . }}
+
+<div class="container">
+  <div class="row">
+    {{ partial "menu.html" . }}
+    <div class="eight columns">
+      <h2 class="text-right">{{ .Title }}</h2>
+      <p class="text-right sous-titre">{{ .Params.soustitre }}</p>
+
+      <!-- slide -->
+      <div class="slide-container na">
+        {{ if isset .Params "imgs" }}
+          {{ range .Params.imgs }}
+          <img src="/img/{{ . }}" alt="{{ . }}" class="u-max-full-width slide">
+          {{ end }}
+          <div class="slide-left" onclick="plusDivs(-1)">&#10094;</div>
+          <div class="slide-right" onclick="plusDivs(1)">&#10095;</div>
+        {{ else }}
+          <img src="/img/{{ .Params.img }}" alt="{{ . }}" class="u-max-full-width">
+        {{ end }}
+      </div>
+
+      {{ .Content }}
+      <hr>
+
+      <!-- infos menu en bas si mobile -->
+      {{ if isset .Params "menu" }}
+      <div class="infos-menu-bas mb5 mt5">
+        {{ .Params.menu | markdownify }}
+      </div>
+      {{ end }}
+
+      <!-- next - prev -->
+      {{ if .NextInSection }}
+      &#10094; <a href="{{ .NextInSection.RelPermalink }}">{{ .NextInSection.Title }}</a>
+      {{ end }}
+      {{ if .PrevInSection }}
+      <span class="next">
+        <a href="{{ .PrevInSection.RelPermalink }}">{{ .PrevInSection.Title }}</a> &#10095;
+      </span>
+      {{ end }}
+
+    </div>
+  </div>
+</div>
+
+{{ partial "footer.html" . }}

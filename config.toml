@@ -1,0 +1,8 @@
+baseurl = "localhost:1313"
+languageCode = "fr"
+title = "Les Non Alignés"
+theme = "skeleton-jlafos"
+
+[params]
+  piedpage = "Compagnie Les Non Alignés – 2016"
+  logo = "/img/logo-na-fafafa.png"

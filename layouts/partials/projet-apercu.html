@@ -1,0 +1,10 @@
+<div class="mb2">
+  <a class="a-title" href="{{ .RelPermalink }}">
+  <h2 class="text-right">{{ .Title }}</h2>
+  <p class="text-right sous-titre">{{ .Params.soustitre | safeHTML }}</p>
+  <div class="img-container na">
+    <img src="/img/{{ .Params.img }}" alt="{{ .Title }}" class="u-max-full-width">
+    <p class="infos-pratiques-vignette text-right">{{ .Params.infospratiques | safeHTML }}</p>
+  </div>
+  </a>
+</div>
