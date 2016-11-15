@@ -2,6 +2,8 @@ baseurl = "localhost:1313"
 languageCode = "fr"
 title = "Les Non Alignés"
 theme = "skeleton-jlafos"
+relativeURLs = true
+canonifyURLs = true
 
 [params]
   piedpage = "Compagnie Les Non Alignés – 2016"
