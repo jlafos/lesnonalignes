@@ -10,37 +10,53 @@
     <atom:link href="lesnonalignes.fr/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Contact</title>
-      <link>/lesnonalignes.fr/contact/</link>
+      <title>Contacts</title>
+      <link>/lesnonalignes.fr/contacts/</link>
       <pubDate>Thu, 03 Nov 2016 17:04:33 +0100</pubDate>
       
-      <guid>/lesnonalignes.fr/contact/</guid>
+      <guid>/lesnonalignes.fr/contacts/</guid>
       <description>
 
-&lt;p&gt;Compagnie &lt;strong&gt;Les Non Alignés&lt;/strong&gt;&lt;br&gt;
-3 rue Lebrun — 69004 LYON&lt;/p&gt;
+&lt;p&gt;cielesnonalignes@gmail.com&lt;br&gt;
+Nous retrouver sur Facebook : &lt;a href=&#34;https://www.facebook.com/Les-Non-Align%C3%A9s-191755984505554/&#34;&gt;Les Non Alignés&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Association loi de 1901&lt;br&gt;
-&lt;strong&gt;SIRET&lt;/strong&gt; ???&lt;br&gt;
-&lt;strong&gt;APE&lt;/strong&gt; 9001 Z&lt;/p&gt;
+&lt;h5 id=&#34;porteurs-de-projets&#34;&gt;Porteurs de projets&lt;/h5&gt;
 
-&lt;h5 id=&#34;artistique&#34;&gt;Artistique&lt;/h5&gt;
+&lt;p&gt;&lt;strong&gt;Jérôme Cochet&lt;/strong&gt;&lt;br&gt;
++33 6 26 74 90 44&lt;br&gt;
+cochet.j@gmail.com&lt;/p&gt;
 
-&lt;p&gt;Jérôme Cochet ???&lt;/p&gt;
-
-&lt;h5 id=&#34;administration&#34;&gt;Administration&lt;/h5&gt;
-
-&lt;p&gt;???&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Daniel Léocadie&lt;/strong&gt;&lt;br&gt;
++33 6 70 36 31 75&lt;br&gt;
+daniel.leocadie@gmail.com&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;&lt;strong&gt;Site web&lt;/strong&gt;&lt;br&gt;
-Julien Lafosse — &lt;a href=&#34;//jlafos.se&#34;&gt;jlafos.se&lt;/a&gt;&lt;/p&gt;
+&lt;h5 id=&#34;compagnie-les-non-alignés&#34;&gt;Compagnie Les Non Alignés&lt;/h5&gt;
+
+&lt;p&gt;3 rue Lebrun — 69004 LYON&lt;/p&gt;
+
+&lt;p&gt;Association loi 1901&lt;br&gt;
+Licences en cours&lt;br&gt;
+&lt;strong&gt;SIRET&lt;/strong&gt; 811 543 008 00015&lt;br&gt;
+&lt;strong&gt;APE&lt;/strong&gt; 9001 Z&lt;/p&gt;
+
+&lt;h5 id=&#34;bureau&#34;&gt;Bureau&lt;/h5&gt;
+
+&lt;p&gt;Présidente — Hélène Cusa&lt;br&gt;
+Trésorier — Joseph Philipps&lt;br&gt;
+Secrétaire — Aude Robin&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h5 id=&#34;site-web&#34;&gt;Site web&lt;/h5&gt;
+
+&lt;p&gt;Julien Lafosse — &lt;a href=&#34;//jlafos.se&#34;&gt;jlafos.se&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Compagnie</title>
+      <title>La Compagnie</title>
       <link>/lesnonalignes.fr/compagnie/</link>
       <pubDate>Thu, 03 Nov 2016 17:03:26 +0100</pubDate>
       
@@ -49,7 +65,19 @@ Julien Lafosse — &lt;a href=&#34;//jlafos.se&#34;&gt;jlafos.se&lt;/a&gt;&lt;/p
 
 &lt;p&gt;Ces artistes sont issus d&amp;rsquo;écoles nationales ou conservatoires francophones, et rejoints par des professionnels d&amp;rsquo;autres horizons (architectes, physiciens, ingénieurs).&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;./img/logo-na-fafafa.png&#34; alt=&#34;Logo Les Non Alignés&#34; class=&#34;max-width-30&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Jérôme Cochet&lt;/strong&gt;  Comédien, Metteur en Scène, Ingénieur |
+&lt;strong&gt;Daniel Léocadie&lt;/strong&gt;  Comédien, Metteur en Scène |
+&lt;strong&gt;Noémie Rimbert&lt;/strong&gt;  Comédienne |
+&lt;strong&gt;Charlotte Villalonga&lt;/strong&gt;  Comédienne |
+&lt;strong&gt;Eve Coltat&lt;/strong&gt;  Comédienne |
+&lt;strong&gt;Théophile Sclavis&lt;/strong&gt;  Comédien |
+&lt;strong&gt;Arthur Fourcade&lt;/strong&gt;  Metteur en Scène, Comédien |
+&lt;strong&gt;Alexandre Ouzia&lt;/strong&gt;  Ingénieur, Chercheur |
+&lt;strong&gt;Julien Lafosse&lt;/strong&gt;  Créateur Son |
+&lt;strong&gt;Louise Sari&lt;/strong&gt;  Scénographe |
+&lt;strong&gt;Nicolas Galland&lt;/strong&gt;  Éclairagiste&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;./img/logo-na-noir.png&#34; alt=&#34;Logo Les Non Alignés&#34; class=&#34;max-width-50 mt2&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -68,8 +96,6 @@ Mardi, mercredi et vendredi à 20h&lt;br&gt;
 Jeudi à 19h — Samedi à 17h&lt;br&gt;
 &lt;strong&gt;Les Clochards Célestes&lt;/strong&gt;&lt;br&gt;
 51 Rue des Tables Claudiennes, Lyon 1er&lt;/p&gt;
-
-&lt;hr /&gt;
 
 &lt;p&gt;La pièce s’ouvre à la fin d’une guerre. Plus précisément à cet instant du retour chez soi, lorsque tout semble derrière soi mais qu’il reste encore un dernier pas à faire. Un soldat revient dans son village après avoir été prisonnier dans un camp, il est aveugle.&lt;br&gt;
 Avec Guerre, Lars Norén aborde sous un nouvel angle la problématique qui, ces dernières années, est au centre de son théâtre : qu’est-ce qui fait que l’homme garde toujours espoir, continue de rêver et veut vivre, même après avoir tout perdu ?&lt;/p&gt;
@@ -105,8 +131,6 @@ Avec Guerre, Lars Norén aborde sous un nouvel angle la problématique qui, ces 
 &lt;strong&gt;CDN de l&amp;rsquo;Océan Indien&lt;/strong&gt; — Théâtre du Grand Marché&lt;br&gt;
 2 rue du Maréchal Leclerc, Saint Denis — La Réunion&lt;/p&gt;
 
-&lt;hr /&gt;
-
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;On n&amp;rsquo;est jamais trop curieux quand il s&amp;rsquo;agit de sa propre histoire&amp;rdquo;&lt;/em&gt;&lt;br&gt;
 — &lt;em&gt;Né quelque part&lt;/em&gt;, Film de Mohamed Hamidi, juin 2013&lt;/p&gt;
@@ -135,8 +159,6 @@ Avec Guerre, Lars Norén aborde sous un nouvel angle la problématique qui, ces 
 &lt;p&gt;&lt;strong&gt;du 8 au 19 février&lt;/strong&gt; à 20h&lt;br&gt;
 &lt;strong&gt;Théâtre le Fou&lt;/strong&gt;&lt;br&gt;
 2 Rue Fernand Rey, Lyon 1er&lt;/p&gt;
-
-&lt;hr /&gt;
 
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;&amp;ldquo;Moi qui passe et qui meurs, je vous contemple, étoiles !&lt;br&gt;

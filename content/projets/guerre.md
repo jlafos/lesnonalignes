@@ -7,14 +7,17 @@ img = "guerre/guerre-nb.jpg"
 soustitre = "de Lars Norén"
 infospratiques = "du 9 au 18 novembre — Théâtre des Clochards Célestes — Lyon"
 
+menu = """<p><b>Télécharger</b><br><a href="/dl/dossier-guerre.pdf">Dossier de présentation</a></p>
+  """
+
 imgs = [
-  "guerre/guerre-7.jpg",
+  "guerre/guerre-1.jpg",
   "guerre/guerre-2.jpg",
   "guerre/guerre-3.jpg",
   "guerre/guerre-4.jpg",
   "guerre/guerre-5.jpg",
   "guerre/guerre-6.jpg",
-  "guerre/guerre-1.jpg",
+  "guerre/guerre-7.jpg",
 ]
 +++
 
@@ -25,8 +28,6 @@ Mardi, mercredi et vendredi à 20h<br>
 Jeudi à 19h — Samedi à 17h<br>
 __Les Clochards Célestes__<br>
 51 Rue des Tables Claudiennes, Lyon 1er
-
----
 
 La pièce s’ouvre à la fin d’une guerre. Plus précisément à cet instant du retour chez soi, lorsque tout semble derrière soi mais qu’il reste encore un dernier pas à faire. Un soldat revient dans son village après avoir été prisonnier dans un camp, il est aveugle.<br>
 Avec Guerre, Lars Norén aborde sous un nouvel angle la problématique qui, ces dernières années, est au centre de son théâtre : qu’est-ce qui fait que l’homme garde toujours espoir, continue de rêver et veut vivre, même après avoir tout perdu ?

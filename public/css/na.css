@@ -63,6 +63,28 @@ a:active {
   border-color: #3c6478;
 }
 
+.logo {
+  max-height: 5rem;
+  position: absolute;
+  right: 20px;
+}
+
+.a-title .bleu {
+  opacity: 0;
+}
+
+.a-title .noir {
+  opacity: 1;
+}
+
+.a-title:hover .noir {
+  opacity: 0;
+}
+
+.a-title:hover .bleu {
+  opacity: 1;
+}
+
 .sous-titre {
   margin-top: -2rem;
   margin-bottom: 1.5rem;
@@ -76,18 +98,34 @@ a:active {
   right: 0;
   bottom: 0;
   opacity: 0;
-  background-color: rgba(60,100,120,0.66);
+  background-color: rgba(60,100,120,0.8);
   padding: .5rem;
   transition: opacity .2s;
   -webkit-transition: opacity .2s; /* Safari */
 }
 
 a:hover .infos-pratiques-vignette {
-  /*color: #3c6478;*/
   opacity: 1;
   transition: opacity .2s;
   -webkit-transition: opacity .2s; /* Safari */
 }
+
+img.couleur {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  transition: opacity .2s;
+  -webkit-transition: opacity .2s; /* Safari */
+}
+
+a:hover img.couleur {
+  position: absolute;
+  left: 0;
+  opacity: 1;
+  transition: opacity .2s;
+  -webkit-transition: opacity .2s; /* Safari */
+}
+
 
 .menu {
   font-size: 2rem;
@@ -133,18 +171,30 @@ a:hover .infos-pratiques-vignette {
   display:block;
 }
 
+.vignettes-container-menu {
+  display: none;
+}
 
-@media (min-width: 550px) {
+.vignettes-container-bas {
+  display: none;
+}
 
-  .infos-menu {
-    display:block;
-    font-size: 1.5rem;
-  }
+.vignette {
+  cursor: pointer;
+  transition: transform .2s;
+  -webkit-transition: transform .2s; /* Safari */
+  max-width: 80%;
+  margin-left: 0;
+}
 
-  .infos-menu-bas {
-    display: none;
-  }
+.vignette:hover {
 
+  transition: transform .2s;
+  -webkit-transition: transform .2s; /* Safari */
+  transform: rotate(-3deg);
+  -o-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  -webkit-transform:rotate(-3deg);
 }
 
 /***** SLIDE *****/
@@ -169,6 +219,57 @@ a:hover .infos-pratiques-vignette {
 
 .slide-right {
   right: 1rem;
+}
+
+/***** RESPONSIVE features *****/
+
+h1 {
+  font-size: 4rem;
+  padding-right: calc(5rem + 20px);
+}
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+
+  h1 {
+    font-size: 5rem;
+  }
+
+  .vignette {
+    max-width: 45%;
+    margin-left: 0;
+    display:inline-block;
+  }
+
+  .logo {
+    max-height: 8rem;
+  }
+}
+
+/* Larger than phablet */
+@media (min-width: 550px) {
+
+  .infos-menu {
+    display:block;
+    font-size: 1.5rem;
+  }
+
+  .infos-menu-bas {
+    display: none;
+  }
+
+  .vignettes-container-menu {
+    display: block;
+  }
+
+  .vignettes-container-bas {
+    display: none;
+  }
+
+  .logo {
+    right: 0px;
+  }
+
 }
 
 /***** UTILITY *****/
@@ -215,4 +316,8 @@ a:hover .infos-pratiques-vignette {
 .max-width-30 {
   max-width: 30%;
   margin-left: 0;
+}
+
+.wow {
+  visibility: hidden;
 }

@@ -4,12 +4,16 @@ title = "Origine(s)"
 type = "projets"
 weight = "30"
 img = "origines/origines-nb.jpg"
-soustitre = "théâtre cosmique"
+soustitre = "création originale"
 infospratiques = "du 8 au 19 février — Théâtre Le Fou — Lyon"
 imgs = [
-  "origines/origines-2.jpg",
   "origines/origines-1.jpg",
+  "origines/origines-2.jpg",
 ]
+
+menu = """<p><b>Télécharger</b><br><a href="/dl/dossier-origines.pdf">Dossier de présentation</a></p>
+  """
+
 +++
 
 #### Infos Pratiques
@@ -17,8 +21,6 @@ imgs = [
 __du 8 au 19 février__ à 20h<br>
 __Théâtre le Fou__<br>
 2 Rue Fernand Rey, Lyon 1er
-
----
 
 >_"Moi qui passe et qui meurs, je vous contemple, étoiles !<br>
 >Debout, tout près des dieux, dans la nuit aux cent voiles,<br>

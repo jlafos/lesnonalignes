@@ -20,10 +20,11 @@
           <img src="/img/{{ .Params.img }}" alt="{{ . }}" class="u-max-full-width">
         {{ end }}
       </div>
-
-      {{ .Content }}
+      <div class="mt2">
+        {{ .Content }}
+      </div>
       <hr>
-
+      
       <!-- infos menu en bas si mobile -->
       {{ if isset .Params "menu" }}
       <div class="infos-menu-bas mb5 mt5">

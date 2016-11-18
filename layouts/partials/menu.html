@@ -7,11 +7,18 @@
   </p>
   <p>
     <a href="/compagnie">Compagnie</a><br>
-    <a href="/contact">Contact</a>
+    <a href="/contacts">Contacts</a>
   </p>
+  {{ if isset .Params "imgs" }}
+  <div class="vignettes-container-menu mt5 wow fadeInUp">
+    {{ range $index, $element := .Params.imgs }}
+    <img src="/img/{{ $element }}" alt="{{ $element }}" class="vignette" onclick="showDivs(slideIndex = {{ add $index 1 }} )">
+    {{ end }}
+  </div>
+  {{ end }}
   {{ if isset .Params "menu" }}
-  <div class="infos-menu">
-    <hr class="na2 max-width-50 mt5 mb5">
+  <div class="infos-menu wow fadeInUp">
+    <hr class="na2 max-width-50 mt5">
     {{ .Params.menu | markdownify }}
   </div>
   {{ end }}

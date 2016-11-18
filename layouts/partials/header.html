@@ -10,7 +10,13 @@
   {{else}}
   <title>{{ .Title }} | {{.Site.Title}}</title>
   {{end}}
+
+  {{if eq .Title .Site.Title}}
   <meta name="description" content="Les Non Alignés, compagnie de théâtre — Site officiel">
+  {{else}}
+  <meta name="description" content="{{ .Title }} | {{.Site.Title}}">
+  {{end}}
+
   <meta name="author" content="Les Non Alignés">
   <meta name="keywords" content="théâtre, non alignés, compagnie, jérôme, cochet">
   <!-- Mobile Specific Metas
@@ -26,6 +32,7 @@
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/skeleton.css">
   <link rel="stylesheet" href="/css/na.css">
+  <link rel="stylesheet" href="/css/animate.min.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

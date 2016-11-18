@@ -7,7 +7,11 @@
   
   <title>Origine(s) | Les Non Alignés</title>
   
-  <meta name="description" content="Les Non Alignés, compagnie de théâtre — Site officiel">
+
+  
+  <meta name="description" content="Origine(s) | Les Non Alignés">
+  
+
   <meta name="author" content="Les Non Alignés">
   <meta name="keywords" content="théâtre, non alignés, compagnie, jérôme, cochet">
   
@@ -20,6 +24,7 @@
   <link rel="stylesheet" href="../../css/normalize.css">
   <link rel="stylesheet" href="../../css/skeleton.css">
   <link rel="stylesheet" href="../../css/na.css">
+  <link rel="stylesheet" href="../../css/animate.min.css">
 
   
   <link rel="icon" type="image/png" href="../../img/favicon.png">
@@ -30,7 +35,11 @@
 <div class="container mt5">
   <div class="row">
     <div class="twelve columns">
-      <a class="a-title" href="../../lesnonalignes.fr"><h1>Les Non Alignés</h1></a>
+      <a class="a-title" href="../../lesnonalignes.fr">
+        <img src="../../img/logo-na-noir.png" alt="Logo Les Non Alignés" class="logo noir">
+        <img src="../../img/logo-na-bleu.png" alt="Logo Les Non Alignés" class="logo bleu">
+        <h1>Les Non Alignés</h1>
+      </a>
       <hr>
     </div>
   </div>
@@ -52,38 +61,52 @@
   </p>
   <p>
     <a href="../../compagnie">Compagnie</a><br>
-    <a href="../../contact">Contact</a>
+    <a href="../../contacts">Contacts</a>
   </p>
+  
+  <div class="vignettes-container-menu mt5 wow fadeInUp">
+    
+    <img src="../../img/origines/origines-1.jpg" alt="origines/origines-1.jpg" class="vignette" onclick="showDivs(slideIndex =  1  )">
+    
+    <img src="../../img/origines/origines-2.jpg" alt="origines/origines-2.jpg" class="vignette" onclick="showDivs(slideIndex =  2  )">
+    
+  </div>
+  
+  
+  <div class="infos-menu wow fadeInUp">
+    <hr class="na2 max-width-50 mt5">
+    <b>Télécharger</b><br><a href="../../dl/dossier-origines.pdf">Dossier de présentation</a></p>
+  
+
+  </div>
   
 
 </div>
 
     <div class="eight columns">
       <h2 class="text-right">Origine(s)</h2>
-      <p class="text-right sous-titre">théâtre cosmique</p>
+      <p class="text-right sous-titre">création originale</p>
 
       
       <div class="slide-container na">
         
           
-          <img src="../../img/origines/origines-2.jpg" alt="origines/origines-2.jpg" class="u-max-full-width slide">
-          
           <img src="../../img/origines/origines-1.jpg" alt="origines/origines-1.jpg" class="u-max-full-width slide">
+          
+          <img src="../../img/origines/origines-2.jpg" alt="origines/origines-2.jpg" class="u-max-full-width slide">
           
           <div class="slide-left" onclick="plusDivs(-1)">&#10094;</div>
           <div class="slide-right" onclick="plusDivs(1)">&#10095;</div>
         
       </div>
-
-      
+      <div class="mt2">
+        
 
 <h4 id="infos-pratiques">Infos Pratiques</h4>
 
 <p><strong>du 8 au 19 février</strong> à 20h<br>
 <strong>Théâtre le Fou</strong><br>
 2 Rue Fernand Rey, Lyon 1er</p>
-
-<hr />
 
 <blockquote>
 <p><em>&ldquo;Moi qui passe et qui meurs, je vous contemple, étoiles !<br>
@@ -103,9 +126,16 @@ Je goûte, en vous voyant, ma part d&rsquo;éternité.&rdquo;</em><br>
 
 <p><strong>Création collective</strong> Jérôme Cochet, Arthur Fourcade, Julien Lafosse, Alexandre Ouzia <em>(distribution en cours)</em></p>
 
+      </div>
       <hr>
-
       
+      
+      
+      <div class="infos-menu-bas mb5 mt5">
+        <b>Télécharger</b><br><a href="../../dl/dossier-origines.pdf">Dossier de présentation</a></p>
+  
+
+      </div>
       
 
       
@@ -122,7 +152,7 @@ Je goûte, en vous voyant, ma part d&rsquo;éternité.&rdquo;</em><br>
   <div class="container pied-page">
     <div class="row">
       <div class="twelve columns">
-        Compagnie Les Non Alignés – 2016
+        Cie Les Non Alignés – nov 2016
       </div>
     </div>
   </div>
@@ -130,6 +160,9 @@ Je goûte, en vous voyant, ma part d&rsquo;éternité.&rdquo;</em><br>
 
 
   <script src="../../js/slide.js"></script>
+  
+  <script src="../../js/wow.min.js"></script>
+  <script>new WOW().init();</script>
 
 
 </body>

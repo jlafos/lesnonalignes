@@ -3,7 +3,10 @@
   <h2 class="text-right">{{ .Title }}</h2>
   <p class="text-right sous-titre">{{ .Params.soustitre | safeHTML }}</p>
   <div class="img-container na">
-    <img src="/img/{{ .Params.img }}" alt="{{ .Title }}" class="u-max-full-width">
+    <img src="/img/{{ .Params.img }}" alt="{{ .Title }}" class="u-max-full-width nb">
+    {{range first 1 .Params.imgs}}
+    <img src="/img/{{ . }}" alt="{{ . }}" class="u-max-full-width couleur">
+    {{end}}
     <p class="infos-pratiques-vignette text-right">{{ .Params.infospratiques | safeHTML }}</p>
   </div>
   </a>
