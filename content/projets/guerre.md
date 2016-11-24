@@ -29,10 +29,16 @@ Jeudi à 19h — Samedi à 17h<br>
 __Les Clochards Célestes__<br>
 51 Rue des Tables Claudiennes, Lyon 1er
 
-La pièce s’ouvre à la fin d’une guerre. Plus précisément à cet instant du retour chez soi, lorsque tout semble derrière soi mais qu’il reste encore un dernier pas à faire. Un soldat revient dans son village après avoir été prisonnier dans un camp, il est aveugle.<br>
-Avec Guerre, Lars Norén aborde sous un nouvel angle la problématique qui, ces dernières années, est au centre de son théâtre : qu’est-ce qui fait que l’homme garde toujours espoir, continue de rêver et veut vivre, même après avoir tout perdu ?
+La pièce souvre à la fin dune guerre. Plus précisément à cet instant du retour chez soi, lorsque tout semble derrière soi mais quil reste encore un dernier pas à faire. Un soldat revient dans son village après avoir été prisonnier dans un camp, il est aveugle.
+Bosnie. 1995.
 
-Amélie Wendling, lors de la création en France par l'auteur
+Nous avions 5 ans. Des massacres se déroulaient sous les caméras internationale au cur de lEurope. Tout le monde savait mais personne ne mesurait. Et puis les années suivantes nous nous sommes éveillés à lhorreur lorsque les films, les livres, les témoignages nous y ont forcés.
+
+Hier. Aujourdhui. Demain. Tout recommence.<br>
+Nous jouons Guerre comme une pièce actuelle. <br>
+Nous pensons que tout ce qui a lieu dans cette pièce existe aujourdhui.<br>
+Nous racontons ce qui se racontera toujours de notre monde dans quelques années.<br>
+Nous jouons trop tard ou en avance
 
 __Auteur__ Lars Norén — __Avec__ Eve Coltat, Noémie Rimbert, Charlotte Villalonga, Daniel Léocadie, Théophile Sclavis
 
